@@ -7,3 +7,5 @@ https://www.geeksforgeeks.org/pointers-vs-references-cpp/
 <br>
 https://www.geeksforgeeks.org/pointers-c-examples/
 <br>
+http://www.cplusplus.com/doc/tutorial/pointers/
+<br>
