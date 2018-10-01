@@ -5,3 +5,5 @@ https://www.geeksforgeeks.org/find-length-of-a-linked-list-iterative-and-recursi
 <br>
 https://www.geeksforgeeks.org/pointers-vs-references-cpp/
 <br>
+https://www.geeksforgeeks.org/pointers-c-examples/
+<br>
