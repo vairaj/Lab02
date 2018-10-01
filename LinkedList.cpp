@@ -68,6 +68,11 @@ bool List::operator==(const List &rhs){
 double List::sizeOf()
 {
     int num = 0;
+    while !(other->NULL)
+    {
+        num++;  //increment counter :D
+        sizeOf(next_permutation)
+    }
     return num;
 }
 
