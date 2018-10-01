@@ -68,7 +68,7 @@ bool List::operator==(const List &rhs){
 double List::sizeOf()
 {
     int num = 0;
-    while !(other->NULL)
+    while !(Node::entry_->NULL)
     {
         num++;  //increment counter :D
         sizeOf(next_permutation)
