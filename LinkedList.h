@@ -69,7 +69,7 @@ public:
 	double removeFirst();
 
 	//post: the number of elements in this List have been returned.
-	double size();
+	double sizeOf();
 
 private:
 	//*** Inaccessible standard functions ***

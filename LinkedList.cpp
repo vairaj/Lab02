@@ -42,13 +42,6 @@ const List & List::operator=(const List & other)
 	return *this;
 }
 
-
-// code modified from https://www.geeksforgeeks.org/find-length-of-a-linked-list-iterative-and-recursive/
-double size()
-{
-
-}
-
 bool List::operator==(const List &rhs){
   /*  if(size() == 0 && rhs.size() == 0){return true;}//both empty
     if(size() != rhs.size()){return false;}//sizes not the same
@@ -71,6 +64,12 @@ bool List::operator==(const List &rhs){
   	return true;
 }
 
+// code modified from https://www.geeksforgeeks.org/find-length-of-a-linked-list-iterative-and-recursive/
+double List::sizeOf()
+{
+    int num = 0;
+    return num;
+}
 
 bool List::empty() const
 {

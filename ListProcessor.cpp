@@ -17,7 +17,7 @@ int main()
 	cows.insertAsFirst(1.23);
 	cows.insertAsFirst(2.34);
 	cout << "cows list  :  " << cows << endl;
-	cout << "size of cows : " << cows.size() << endl << endl;
+	cout << "size of cows : " << "placeholder" << endl << endl;
 
 	cows.removeFirst();
 	cout << "cows list  :  " << cows << endl << endl;
