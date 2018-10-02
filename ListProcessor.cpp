@@ -13,11 +13,13 @@ int main()
 {
 	List cows;
 	cout << "cows list  :  " << cows << endl;
+	cout << "sum of cows : " << cows.sumOf() << endl;
 	cout << "size of cows : " << cows.sizeOf() << endl << endl;
 
 	cows.insertAsFirst(1.23);
 	cows.insertAsFirst(2.34);
 	cout << "cows list  :  " << cows << endl;
+	cout << "sum of cows : " << cows.sumOf() << endl;
 	cout << "size of cows : " << cows.sizeOf() << endl << endl;
 
 	cows.removeFirst();
@@ -26,6 +28,7 @@ int main()
 	List horses(cows);
 	cout << "cows list  :  " << cows << endl;
 	cout << "size of cows : " << cows.sizeOf() << endl;
+	cout << "sum of cows : " << cows.sumOf() << endl;
 	cout << "horses list:  " << horses << endl;
 	cout << "size of horses : " << horses.sizeOf() << endl << endl;
 
@@ -33,12 +36,14 @@ int main()
 	horses.insertAsFirst(5.67);
 	cows.insertAsFirst(6.78);
 	cout << "cows list  :  " << cows << endl;
+	cout << "sum of cows : " << cows.sumOf() << endl;
 	cout << "size of cows : " << cows.sizeOf() << endl;
 	cout << "horses list:  " << horses << endl;
 	cout << "size of horses : " << horses.sizeOf() << endl << endl;
 
 	List pigs;
 	cout << "cows list  :  " << cows << endl;
+	cout << "sum of cows : " << cows.sumOf() << endl;
 	cout << "size of cows : " << cows.sizeOf() << endl;
 	cout << "horses list:  " << horses << endl;
 	cout << "size of horses : " << horses.sizeOf() << endl;
@@ -48,6 +53,7 @@ int main()
 	pigs = cows;
 	cout << "cows list  :  " << cows << endl;
 	cout << "size of cows : " << cows.sizeOf() << endl;
+	cout << "sum of cows : " << cows.sumOf() << endl;
 	cout << "horses list:  " << horses << endl;
 	cout << "size of horses : " << horses.sizeOf() << endl;
 	cout << "pigs list  :  " << pigs << endl;
@@ -56,6 +62,7 @@ int main()
 	pigs = horses;
 	cout << "cows list  :  " << cows << endl;
 	cout << "size of cows : " << cows.sizeOf() << endl;
+	cout << "sum of cows : " << cows.sumOf() << endl;
 	cout << "horses list:  " << horses << endl;
 	cout << "size of horses : " << horses.sizeOf() << endl;
 	cout << "pigs list  :  " << pigs << endl;

@@ -81,8 +81,28 @@ double List::sizeOf()
         }
         return counter;
     }
-
 }
+
+double List::sumOf()
+{
+     double sum = 0;
+     Node* coolNode = first_;
+    if (empty())
+    {
+        return sum;
+    }
+    else
+    {
+        while(coolNode)
+        {
+            //here is the part where I figure out how to add *coolNode to sum
+            //sum = sum + *coolNode isn't working D:df
+            coolNode = coolNode->next_;
+        }
+    }
+        return sum;
+}
+
 
 bool List::empty() const
 {

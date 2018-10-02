@@ -71,6 +71,9 @@ public:
 	//post: the number of elements in this List have been returned.
 	double sizeOf();
 
+	// post: the elements of  the list have been summed
+	double sumOf();
+
 private:
 	//*** Inaccessible standard functions ***
 
