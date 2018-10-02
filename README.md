@@ -9,3 +9,5 @@ https://www.geeksforgeeks.org/pointers-c-examples/
 <br>
 http://www.cplusplus.com/doc/tutorial/pointers/
 <br>
+https://www.tutorialspoint.com/cplusplus/cpp_null_pointers.htm
+<br>
