@@ -64,15 +64,10 @@ bool List::operator==(const List &rhs){
   	return true;
 }
 
-// code modified from https://www.geeksforgeeks.org/find-length-of-a-linked-list-iterative-and-recursive/
 double List::sizeOf()
 {
     int num = 0;
-    while !(Node::entry_->NULL)
-    {
-        num++;  //increment counter :D
-        sizeOf(next_permutation)
-    }
+
     return num;
 }
 
