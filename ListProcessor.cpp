@@ -15,8 +15,6 @@ int main()
 	cout << "cows list  :  " << cows << endl;
 	cout << "size of cows : " << cows.sizeOf() << endl << endl;
 
-
-
 	cows.insertAsFirst(1.23);
 	cows.insertAsFirst(2.34);
 	cout << "cows list  :  " << cows << endl;

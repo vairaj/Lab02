@@ -66,13 +66,15 @@ bool List::operator==(const List &rhs){
 
 double List::sizeOf()
 {
+   double counter;
     if (empty())
     {
         return 0;
     }
     else
     {
-        return 1;
+        counter++;
+        return counter;
     }
 
 }
