@@ -66,9 +66,15 @@ bool List::operator==(const List &rhs){
 
 double List::sizeOf()
 {
-    int num = 0;
+    if (empty())
+    {
+        return 0;
+    }
+    else
+    {
+        return 1;
+    }
 
-    return num;
 }
 
 bool List::empty() const
