@@ -67,13 +67,18 @@ bool List::operator==(const List &rhs){
 double List::sizeOf()
 {
    double counter;
+   Node* coolNode = first_;
     if (empty())
     {
         return 0;
     }
     else
     {
-        counter++;
+        while(coolNode)
+        {
+            counter++;
+            coolNode = coolNode->next_;
+        }
         return counter;
     }
 
