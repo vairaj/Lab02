@@ -95,8 +95,7 @@ double List::sumOf()
     {
         while(coolNode)
         {
-            //here is the part where I figure out how to add *coolNode to sum
-            //sum = sum + *coolNode isn't working D:df
+            sum = sum + coolNode->entry_;
             coolNode = coolNode->next_;
         }
     }
