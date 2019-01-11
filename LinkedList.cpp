@@ -114,6 +114,30 @@ void List::insertAsFirst(double x)
 	first_ = new Node(x, first_);
 }
 
+void List::insertAsLast(double x)
+{
+    //iterate through list until you find the end
+    //then add x as the new end
+   Node* coolNode = first_;
+
+    if (empty())
+    {
+        first_ = new Node(x, first_);
+    }
+    else
+    {
+        while(coolNode)
+        {
+            if (coolNode->next_ == NULL)
+            {
+                coolNode->next_ = new Node(x, NULL);
+                break;
+            }
+
+            coolNode = coolNode->next_;
+        }
+    }
+}
 
 double List::removeFirst()
 {

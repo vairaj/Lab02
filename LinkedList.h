@@ -63,6 +63,9 @@ public:
 	//         List.
 	void insertAsFirst(double x);
 
+    // post: x has been added as the last double in the list
+	void insertAsLast(double x);
+
 	// pre:  this List is not empty.
 	// post: the first double in this List has been removed
 	//         from this List and has been returned.
@@ -71,8 +74,10 @@ public:
 	//post: the number of elements in this List have been returned.
 	double sizeOf();
 
-	// post: the elements of  the list have been summed
+	// post: the elements of the list have been summed
+	// and the value returned
 	double sumOf();
+
 
 private:
 	//*** Inaccessible standard functions ***

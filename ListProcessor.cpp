@@ -16,14 +16,28 @@ int main()
 	cout << "sum of cows : " << cows.sumOf() << endl;
 	cout << "size of cows : " << cows.sizeOf() << endl << endl;
 
+	cows.insertAsLast(3.14);
 	cows.insertAsFirst(1.23);
 	cows.insertAsFirst(2.34);
+	cows.insertAsLast(7);
 	cout << "cows list  :  " << cows << endl;
 	cout << "sum of cows : " << cows.sumOf() << endl;
 	cout << "size of cows : " << cows.sizeOf() << endl << endl;
 
 	cows.removeFirst();
 	cout << "cows list  :  " << cows << endl << endl;
+
+
+	cows.insertAsLast(5.14);
+	cout << "cows list  :  " << cows << endl;
+	cout << "sum of cows : " << cows.sumOf() << endl;
+	cout << "size of cows : " << cows.sizeOf() << endl << endl;
+
+	cows.insertAsLast(4.55);
+	cout << "cows list  :  " << cows << endl;
+	cout << "sum of cows : " << cows.sumOf() << endl;
+	cout << "size of cows : " << cows.sizeOf() << endl << endl;
+
 
 	List horses(cows);
 	cout << "cows list  :  " << cows << endl;
